@@ -1,0 +1,10 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: mijing
+
+mybatis:
+   # mapper-locations: classpath*:C:com\mijing\mapper\*.xml
+    type-aliases-package: com.mijing.model
+
