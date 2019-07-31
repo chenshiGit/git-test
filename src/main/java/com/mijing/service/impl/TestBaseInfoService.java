@@ -1,8 +1,9 @@
-package com.mijing.service;
+package com.mijing.service.impl;
 
 import com.mijing.dto.*;
-import com.mijing.model.User;
-import com.mijing.mapper.UserMapper;
+import com.mijing.dto.User;
+import com.mijing.dao.UserMapper;
+import com.mijing.service.TestIBaseInfoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -10,7 +11,7 @@ import org.springframework.stereotype.Service;
  * Created by 陈实 on 2019/6/20.
  */
 @Service
-public class TestBaseInfoService implements TestIBaseInfoService{
+public class TestBaseInfoService implements TestIBaseInfoService {
     @Autowired
     private UserMapper userMapper;
     @Override

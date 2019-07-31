@@ -1,11 +1,10 @@
-package com.mijing.mapper;
+package com.mijing.dao;
 
 import org.apache.ibatis.annotations.Result;
 import org.apache.ibatis.annotations.Results;
 import org.apache.ibatis.annotations.Select;
 
-import java.util.List;
-import com.mijing.model.User;
+import com.mijing.dto.User;
 
 /**
  * Created by 陈实 on 2019/6/20.

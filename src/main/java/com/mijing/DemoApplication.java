@@ -3,12 +3,9 @@ package com.mijing;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import com.mijing.config.CorsFilter;
-import org.springframework.boot.web.servlet.FilterRegistrationBean;
-import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
-@MapperScan("com.mijing.mapper")
+@MapperScan("com.mijing.dao")
 public class DemoApplication {
 
 //	//入口类注册Filter 相当于？@WebFilter(urlPatterns = "/*", filterName = "CorsFilter")

@@ -1,7 +1,6 @@
 package com.mijing.controller;
 
 import  io.swagger.annotations.Api;
-import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -13,8 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import com.mijing.service.TestIBaseInfoService;
 import com.mijing.dto.*;
-import com.mijing.model.User;
-import com.mijing.mapper.UserMapper;
+import com.mijing.dto.User;
 
 import java.util.ArrayList;
 import java.util.List;

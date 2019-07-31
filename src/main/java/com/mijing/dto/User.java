@@ -1,13 +1,7 @@
-package com.mijing.model;
+package com.mijing.dto;
 
-import com.mijing.mapper.UserMapper;
-import com.oracle.webservices.internal.api.message.PropertySet;
 import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
-import org.springframework.stereotype.Service;
-
-import java.util.List;
 
 /**
  * Created by 陈实 on 2019/6/20.

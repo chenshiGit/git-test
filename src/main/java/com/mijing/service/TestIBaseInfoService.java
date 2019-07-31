@@ -1,6 +1,6 @@
 package com.mijing.service;
 import com.mijing.dto.*;
-import com.mijing.model.User;
+import com.mijing.dto.User;
 
 /**
  * Created by 陈实 on 2019/6/20.
