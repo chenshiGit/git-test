@@ -27,8 +27,8 @@ public class LoginController {
     @Autowired
     private LoginService loginService;
 
-//    @RequestMapping(value = "/validate", method = RequestMethod.POST)
-    @RequestMapping(value = "/validate")
+    @RequestMapping(value = "/validate", method = RequestMethod.POST)
+//    @RequestMapping(value = "/validate")
 //    @CrossOrigin
     public Object validate(@RequestBody ReqLoginDto reqLoginDto, HttpServletRequest request, HttpServletResponse response) throws IOException {
         Map<String,Integer> resultMap = new HashMap<>();

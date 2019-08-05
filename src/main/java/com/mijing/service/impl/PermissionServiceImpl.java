@@ -12,7 +12,7 @@ import java.util.Set;
  * Created by MyPC on 2019/7/31.
  */
 @Service
-public class PermissionServiceImp implements PermissionService{
+public class PermissionServiceImpl implements PermissionService{
 
     @Autowired
     private PermissionDao permissionDao;

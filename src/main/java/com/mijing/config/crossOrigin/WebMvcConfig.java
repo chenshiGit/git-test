@@ -1,4 +1,4 @@
-package com.mijing.config;
+package com.mijing.config.crossOrigin;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;

@@ -1,4 +1,4 @@
-package com.mijing.config;
+package com.mijing.config.crossOrigin;
 
 import org.springframework.stereotype.Component;
 import javax.servlet.*;

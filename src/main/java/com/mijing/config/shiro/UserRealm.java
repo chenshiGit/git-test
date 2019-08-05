@@ -39,7 +39,6 @@ public class UserRealm extends AuthorizingRealm {
         String loginName = (String) authenticationToken.getPrincipal();
 //        String password = new String((char[]) authenticationToken.getCredentials());
         JSONObject user = loginService.getUserByName(loginName);
-        System.out.println(user);
         if (user == null) {
             //没找到帐号
             throw new UnknownAccountException();

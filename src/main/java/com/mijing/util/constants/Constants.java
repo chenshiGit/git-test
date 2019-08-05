@@ -1,4 +1,4 @@
-package com.heeexy.example.util.constants;
+package com.mijing.util.constants;
 
 /**
  * @author: hxy
